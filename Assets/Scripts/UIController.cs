@@ -23,6 +23,6 @@ public class UIController : MonoBehaviour
     void Update()
     {
         int distance = Mathf.FloorToInt(player.distance);
-        distanceText.text = distance + " M";
+        distanceText.text = distance + " m";
     }
 }
